@@ -1,110 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <mxfile>
-  <diagram name="Page-1">
-    <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <!-- Cliente -->
-        <mxCell id="2" value="Cliente" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="40" width="160" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="3" value="IDCliente INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="4" value="Nome VARCHAR(45)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2">
-          <mxGeometry y="52" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="5" value="Endereço VARCHAR(45)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2">
-          <mxGeometry y="78" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="6" value="Telefone VARCHAR(15)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2">
-          <mxGeometry y="104" width="160" height="26" as="geometry" />
-        </mxCell>
-        <!-- Veículo -->
-        <mxCell id="7" value="Veículo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="200" width="160" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="8" value="IDVeiculo INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="9" value="Placa VARCHAR(10)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7">
-          <mxGeometry y="52" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="10" value="Marca VARCHAR(45)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7">
-          <mxGeometry y="78" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="11" value="Modelo VARCHAR(45)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7">
-          <mxGeometry y="104" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="12" value="Ano INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7">
-          <mxGeometry y="130" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="13" value="IDCliente INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7">
-          <mxGeometry y="156" width="160" height="26" as="geometry" />
-        </mxCell>
-        <!-- Ordem de Serviço -->
-        <mxCell id="14" value="Ordem de Serviço" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="360" width="160" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="15" value="IDOS INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="14">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="16" value="Numero INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="14">
-          <mxGeometry y="52" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="17" value="DataEmissao DATE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="14">
-          <mxGeometry y="78" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="18" value="ValorTotal DECIMAL(10,2)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="14">
-          <mxGeometry y="104" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="19" value="Status VARCHAR(45)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="14">
-          <mxGeometry y="130" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="20" value="DataConclusao DATE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="14">
-          <mxGeometry y="156" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="21" value="IDVeiculo INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="14">
-          <mxGeometry y="182" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="22" value="IDEquipe INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="14">
-          <mxGeometry y="208" width="160" height="26" as="geometry" />
-        </mxCell>
-        <!-- Equipe de Mecânicos -->
-        <mxCell id="23" value="Equipe de Mecânicos" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="560" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="24" value="IDEquipe INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="23">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="25" value="NomeEquipe VARCHAR(45)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="23">
-          <mxGeometry y="52" width="160" height="26" as="geometry" />
-        </mxCell>
-        <!-- Mecânico -->
-        <mxCell id="26" value="Mecânico" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="680" width="160" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="27" value="IDMecanico INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="26">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="28" value="Nome VARCHAR(45)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="26">
-          <mxGeometry y="52" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="29" value="Endereço VARCHAR(45)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="26">
-          <mxGeometry y="78" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="30" value="Especialidade VARCHAR(45)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="26">
-          <mxGeometry y="104" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="31" value="IDEquipe INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="26">
-          <mxGeometry y="130" width="160" height="26" as="geometry" />
-        </mxCell>
-        <!-- Serviço -->
-        <mxCell id="32" value="Serviço" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="40" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="33" value="IDServico INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="32">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="34" value="Descricao VARCHAR(45)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="32">
-          <mxGeometry y="52" width="160" height
+  <diagram>
+    <entity name="Cliente">
+      <attribute name="IDCliente" type="INT"/>
+      <attribute name="NomeCliente" type="VARCHAR(100)"/>
+      <attribute name="Endereco" type="VARCHAR(255)"/>
+      <attribute name="Telefone" type="VARCHAR(15)"/>
+    </entity>
+    <entity name="Veiculo">
+      <attribute name="IDVeiculo" type="INT"/>
+      <attribute name="IDCliente" type="INT"/>
+      <attribute name="Placa" type="VARCHAR(10)"/>
+      <attribute name="Modelo" type="VARCHAR(50)"/>
+      <attribute name="Ano" type="INT"/>
+    </entity>
+    <entity name="OrdemServico">
+      <attribute name="ID_OS" type="INT"/>
+      <attribute name="IDVeiculo" type="INT"/>
+      <attribute name="DataEntrada" type="DATE"/>
+      <attribute name="DataSaida" type="DATE"/>
+      <attribute name="ValorTotal" type="DECIMAL(10,2)"/>
+    </entity>
+    <entity name="Servico">
+      <attribute name="IDServico" type="INT"/>
+      <attribute name="Descricao" type="VARCHAR(255)"/>
+      <attribute name="Preco" type="DECIMAL(10,2)"/>
+    </entity>
+    <entity name="Mecanico">
+      <attribute name="IDMecanico" type="INT"/>
+      <attribute name="NomeMecanico" type="VARCHAR(100)"/>
+      <attribute name="Especialidade" type="VARCHAR(100)"/>
+    </entity>
+    <relationship name="FK_Cliente_Veiculo" from="Cliente.IDCliente" to="Veiculo.IDCliente"/>
+    <relationship name="FK_Veiculo_OS" from="Veiculo.IDVeiculo" to="OrdemServico.IDVeiculo"/>
+    <relationship name="FK_OS_Servico" from="OrdemServico.ID_OS" to="Servico.IDServico"/>
+    <relationship name="FK_OS_Mecanico" from="OrdemServico.ID_OS" to="Mecanico.IDMecanico"/>
+  </diagram>
+</mxfile>
